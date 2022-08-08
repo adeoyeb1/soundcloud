@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+.content{
+    margin: 0rem 3rem;
+    font-family: sans-serif;
+}
+
+.navbar{
+    background-image: url(../images/sc_landing_head.jpg);
+    background-position:center;
+    background-size: 100%;
+    border-top: solid  rgb(255, 85, 0);
+    display: flex;
+    height: 25rem;
+    background-repeat: no-repeat;
+    padding: 1rem 1rem 0rem 1rem;
+    position: relative;
+}
+.navbar .rightbar{
+    display: flex;
+    /* border: solid white; */
+    height: 35px;
+    /* color: white; */
+}
+.navbar .rightbar h1{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: large;
+}
+.navbar .leftnav{
+    /* border: solid white; */
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    height: 30px;
+}
+.navbar .leftnav .signin{
+    border: 1px solid white;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    margin-right: 1rem;
+}
+.navbar .leftnav .signin a{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-size: small;
+}
+.navbar .leftnav .createacct{
+    /* border: solid red; */
+    border-radius: 3px;
+    background-color: rgb(255, 85, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6.5rem;
+    margin-right: 1rem;
+}
+.navbar .leftnav .createacct a{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-size: small;
+}
+.navbar .leftnav .forcreators{
+    /* border: solid purple; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5.4rem;
+    margin-right: 1rem;
+}
+.navbar .leftnav .forcreators a{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-size: small;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+.navbar .connect{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    /* align-self: center; */
+    text-align: center;
+    font-family: sans-serif;
+    width: 43%;
+    height: max-content;
+    color: white;
+    position: absolute;
+    left: 50vh;
+    top: 20vh;
+
+}
+.navbar .connect h2{
+    font-weight: lighter;
+    font-size: 30px;
+}
+.navbar .connect p{
+    margin: 1rem 0rem;
+}
+.navbar .connect a{
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 85, 0);
+    color: white;
+    text-decoration: none;
+    width: 40%;
+    height: 40px;
+    border-radius: 2px;
+}
+.content .search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 49px 0px 12px;
+    height: 46px;
+}
+.content .search .input{
+    background-color: rgb(242, 242, 242);
+    /* border: solid; */
+    border-radius: 5px;
+    display: flex;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    margin: 0px 16px 0px 50px;
+    padding: 0px 10px;
+}
+.content .search .input input{
+    background-color: rgb(242, 242, 242);
+    /* border: solid; */
+    outline: none;
+    height: 100%;
+    flex: 1;
+}
+.content .search .upload{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    background-color: rgb(255, 85, 0);
+    margin: 0px 16px;
+    height: 100%;
+    width: 12%;
+}
+.content .search .upload a{
+    text-decoration: none;
+    color: white;
+    font-size: small;
+    font-weight: 300
+}
+
